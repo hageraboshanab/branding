@@ -1,0 +1,291 @@
+section {
+  width: 400px;
+  margin: 4rem auto;
+  /* background-color: aqua; */
+}
+
+/* Hero section */
+#hero {
+  h1 {
+    margin: 1rem auto;
+    font-size: 30px;
+  }
+  p {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .discuss {
+    display: inline-block;
+    width: 220px;
+  }
+  .defultLink {
+    border-radius: 0.9rem;
+    display: inline-block;
+  }
+}
+/* end of hero section */
+#whoAreWe {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* background-color: bisque; */
+  justify-content: space-between;
+}
+#whoAreWe .content {
+  /* background-color: blue; */
+  width: 200px;
+
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+}
+#whoAreWe .letsWork {
+  /* background-color: aqua; */
+  background-image: url("../imgs/dots.png");
+  background-size: contain;
+  width: 200px;
+
+  h3 {
+    width: 100px;
+    /* background-color: black; */
+    margin: 5rem auto;
+  }
+}
+/* who are we section  */
+
+/* Our team */
+#Team h2 {
+  margin: 1rem auto;
+}
+#Team .developer {
+  height: 55vh;
+  width: 235px;
+  margin: 2rem auto;
+  border-radius: 15px;
+  cursor: pointer;
+  img {
+    border-radius: 15px;
+    height: 80%;
+  }
+  h2 {
+    font-size: 22px;
+  }
+}
+#Team .developer:hover {
+  background-color: #1a48709b;
+}
+
+/* end of our team */
+/* Check us out */
+#cheeckUs {
+  height: 65vh;
+  p {
+    text-align: center;
+    margin: 1rem auto;
+  }
+  h2 {
+    margin: 0 auto;
+  }
+  .defultLink {
+    width: 180px;
+    display: block;
+    margin: auto;
+    border-radius: 9px;
+  }
+}
+#cheeckUs .content {
+  width: 400px;
+  align-content: center;
+  margin-right: 3rem;
+}
+#cheeckUs .photos {
+  position: relative;
+  height: 55vh;
+  img {
+    height: 13vh;
+    width: 130px;
+    border-radius: 10px;
+  }
+}
+#cheeckUs .photos .img1 {
+  position: absolute;
+  top: 8rem;
+}
+#cheeckUs .photos .img2 {
+  position: absolute;
+  top: 16rem;
+}
+#cheeckUs .photos .img3 {
+  position: absolute;
+  top: 4rem;
+  left: 8.5rem;
+  img {
+    height: 30vh;
+  }
+}
+#cheeckUs .photos .img4 {
+  position: absolute;
+  left: 17rem;
+  top: 4rem;
+}
+#cheeckUs .photos .img5 {
+  position: absolute;
+  left: 17rem;
+  top: 12rem;
+}
+/* end of check us */
+
+/* markit  section*/
+
+#market {
+  text-align: center;
+  padding-top: 70px;
+  h2{
+    font-size: 16px;
+  }
+}
+
+#market .market-content {
+  /* max-width: 800px; */
+  margin: 0 auto;
+}
+
+#market .features {
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+  cursor: pointer;
+}
+#market .features .feature {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px 3px rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+#market .features .feature:hover{
+  box-shadow: 5px 2px 5px rgb(0, 0, 0);
+
+}
+#market .features .feature1 {
+  background-color: aquamarine;
+}
+#market .features .feature2 {
+  background-color: rgb(241, 255, 49);
+}
+#market .features .feature3 {
+  background-color: rgb(255, 114, 49);
+}
+
+/* end of market section */
+
+/* end of who are we  */
+/* ***blog */
+#Blog{
+  h2{
+    margin: 0 auto;
+  }
+  p{
+    text-align: center;
+  
+  }
+}
+#Blog .bCard{
+  height: 45vh;
+  width: 300px;
+  border-radius: 10px;
+  margin: 0 auto;
+  img{
+    height: 60%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  h3{
+    width: 290px;
+  }
+ 
+}
+#Blog .bCard:hover{
+  background-color: #1a48709b;
+}
+/* end of blog */
+
+/* Media for pc and tablet */
+@media (width>800px) {
+  section {
+    width: 1000px;
+  }
+  /* hero */
+  #hero {
+    .discuss {
+      margin-left: 30%;
+    }
+  }
+  /* Who are we */
+  #whoAreWe .letsWork {
+    width: 400px;
+    h3 {
+      width: 250px;
+    }
+  }
+  #whoAreWe .content {
+    width: 400px;
+  }
+
+  /* our team */
+  #Team .team {
+    display: flex;
+  }
+  /* check us */
+  #cheeckUs {
+    display: flex;
+  }
+  #cheeckUs .photos img {
+    height: 22vh;
+    width: 200px;
+    border-radius: 10px;
+  }
+
+  #cheeckUs .photos .img1 {
+    top: 8rem;
+  }
+  #cheeckUs .photos .img2 {
+    top: 20rem;
+  }
+  #cheeckUs .photos .img3 {
+    top: 4rem;
+    left: 13.5rem;
+    img {
+      height: 45vh;
+    }
+  }
+  #cheeckUs .photos .img4 {
+    left: 27rem;
+    top: 4rem;
+  }
+  #cheeckUs .photos .img5 {
+    left: 27rem;
+    top: 16rem;
+  }
+
+
+  /* Markit section */
+  #market{
+    display: flex;
+  }
+  #market .market-content{
+    align-content: center;
+  h2{
+    font-size: 20px;
+    margin-bottom: 2rem;
+  }
+  p{
+    text-align: left;
+  }
+}
+
+#Blog .blogCards
+{
+  display: flex;
+  margin-top: 2rem;
+}
+}

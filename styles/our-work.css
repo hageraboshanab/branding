@@ -1,0 +1,326 @@
+.hero {
+  margin: 4rem auto;
+  /* background-color: #e4e6e892; */
+}
+/* Gloobal sections */
+body {
+  background-color: var(--bgColor);
+}
+section {
+  width: 400px;
+  margin: 0 auto;
+}
+#Our-Partners{
+  width: 400px;
+}
+/* end gloable */
+.hero .workContent {
+  padding: 1rem;
+  width: 100%;
+  margin: 0 auto;
+  p {
+    margin: 1rem 0;
+  }
+  a {
+    margin: 0.2rem;
+    border-radius: 10px;
+  }
+}
+.hero .workImg {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.hero .workImg .googel {
+  width: 150px;
+  height: 20vh;
+  border-radius: 10px;
+  border: 2px solid black;
+  align-content: center;
+  margin-left: 2rem;
+  img {
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  p {
+    margin: 0 auto;
+    width: max-content;
+  }
+}
+
+.hero .workImg .googel:hover {
+  box-shadow: 3px 3px 3px 3px black;
+}
+.hero .workImg .im img:hover {
+  width: 110%;
+  height: 105%;
+}
+
+.hero .workImg .im {
+  width: 200px;
+  height: 26vh;
+  overflow: hidden;
+  border-radius: 10px;
+
+  border: 2px solid black;
+  img{
+  border-radius: 8px;
+
+  }
+}
+/* End of hero  */
+
+/* content Our Work */
+
+.contentOurWork .gridContentOne {
+  margin: 2rem 0;
+  display: grid;
+  grid-auto-columns: 200px;
+  grid-auto-rows: 250px;
+  grid-template-areas:
+    "card1 card2"
+    "card3 card4"
+    "card5 card6"
+    "card7 card8"
+    "card9 card10"
+    "card11 .";
+  place-content: center;
+  gap: 1rem;
+}
+
+.contentOurWork .gridContentOne .card {
+  border-radius: 8px;
+}
+.contentOurWork .gridContentOne {
+  h3 {
+    margin-bottom: 1rem;
+    width: 200px;
+  }
+  .smallLink {
+    margin: 1rem 0;
+  }
+  .cardImage {
+    height: 50%;
+    margin-bottom: 0.5rem;
+    img {
+      border-radius: 8px;
+    }
+  }
+}
+
+.contentOurWork .gridContentOne .card1 {
+  grid-area: card1;
+}
+.contentOurWork .gridContentOne .car2 {
+  grid-area: card2;
+}
+.contentOurWork .gridContentOne .card3 {
+  grid-area: card3;
+}
+.contentOurWork .gridContentOne .card4 {
+  grid-area: card4;
+}
+.contentOurWork .gridContentOne .card5 {
+  grid-area: card5;
+}
+.contentOurWork .gridContentOne .card6 {
+  grid-area: card6;
+}
+.contentOurWork .gridContentOne .card7 {
+  grid-area: card7;
+}
+.contentOurWork .gridContentOne .card8 {
+  grid-area: card8;
+}
+.contentOurWork .gridContentOne .card9 {
+  grid-area: card9;
+}
+.contentOurWork .gridContentOne .card10 {
+  grid-area: card10;
+}
+.contentOurWork .gridContentOne .card11 {
+  grid-area: card11;
+}
+/* end of content Our Work */
+
+
+/* Eork section 2 */
+#workeSection2 {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.im {
+  height: 50%;
+  img {
+    border-radius: 15px;
+  }
+}
+
+/*small screen */
+#workeSection2 .container {
+  display: grid;
+  gap: 1rem;
+  place-content: center;
+  grid-auto-columns: 160px;
+  grid-auto-rows: 200px;
+  grid-template-areas:
+    "c1 c2"
+    "c3 c4"
+    "c5 c6 "
+    "c7 c8 "
+    " c9 c10 "
+    "c11 c12"
+    "c13 c14"
+    " c15 c16"
+    "c17 c18"
+    " c19 c20"
+    "c21 c22"
+    " c23 c24";
+    h2{
+      font-size:large;
+      margin: 0.5rem 0;
+    }
+}
+#workeSection2 .container .card1 {
+  grid-area: c1;
+}
+#workeSection2 .container .card2 {
+  grid-area: c2;
+}
+#workeSection2 .container .card3 {
+  grid-area: c3;
+}
+#workeSection2 .container .card4 {
+  grid-area: c4;
+}
+#workeSection2 .container .card5 {
+  grid-area: c5;
+}
+#workeSection2 .container .card6 {
+  grid-area: c6;
+}
+#workeSection2 .container .card7 {
+  grid-area: c7;
+}
+#workeSection2 .container .card8 {
+  grid-area: c8;
+}
+#workeSection2 .container .card9 {
+  grid-area: c9;
+}
+#workeSection2 .container .card10 {
+  grid-area: c10;
+}
+#workeSection2 .container .card11 {
+  grid-area: c11;
+}
+#workeSection2 .container .card12 {
+  grid-area: c12;
+}
+#workeSection2 .container .card13 {
+  grid-area: c13;
+}
+#workeSection2 .container .card14 {
+  grid-area: c14;
+}
+#workeSection2 .container .card15 {
+  grid-area: c15;
+}
+#workeSection2 .container .card16 {
+  grid-area: c16;
+}
+#workeSection2 .container .card17 {
+  grid-area: c17;
+}
+#workeSection2 .container .card18 {
+  grid-area: c18;
+}
+#workeSection2 .container .card19 {
+  grid-area: c19;
+}
+#workeSection2 .container .card20 {
+  grid-area: c20;
+}
+#workeSection2 .container .card21 {
+  grid-area: c21;
+}
+#workeSection2 .container .card22 {
+  grid-area: c22;
+}
+#workeSection2 .container .card123 {
+  grid-area: c23;
+}
+#workeSection2 .container .card24 {
+  grid-area: c24;
+}
+
+/* large  screen*/
+
+/*end  Eork section 2 */
+
+/* mobile media */
+
+@media (width<1200px) {
+   #Our-Partners{
+  width: 600px;
+}
+  section {
+    /* width: 1000px; */
+    margin: 0 auto;
+  }
+
+}
+
+/* media for pc  */
+@media (width>900px) {
+ 
+  section {
+    width: 800px;
+  }
+  .hero {
+    display: flex;
+  }
+  .hero .workContent {
+    width: 550px;
+  }
+  .hero .workImg {
+    width: 550px;
+  }
+  /* end hero */
+
+  /* Content Work */
+  .contentOurWork .gridContentOne {
+    grid-template-columns: 300px;
+    grid-auto-rows: 300px;
+    grid-template-areas:
+      "card1 card2 card3"
+      "card4 card4 card4"
+      "card4 card4 card4"
+      "card5 card6 card7"
+      " card8 card8 card8"
+      " card8 card8 card8"
+      "card9 card10 card11";
+    .cardImage {
+      height: 70%;
+    }
+  }
+  /* Work section 2 */
+  #workeSection2 {
+  width: 1000px;
+}
+  #workeSection2 .container {
+    grid-template-areas:
+      "c1 c2 c3 c4"
+      "c5 c6 c7 c8 "
+      " c9 c10 c11 c12"
+      "c13 c14 c15 c16"
+      "c17 c18 c19 c20"
+      "c21 c22 c23 c24";
+  }
+}

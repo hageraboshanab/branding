@@ -1,0 +1,39 @@
+.needHelp {
+  border-radius: 20px;
+  background-color: #0c1931;
+  color: white;
+  margin-bottom: 5rem;
+  width: 90%;
+  margin: 3rem auto;
+  height: 30vh;
+  padding: 2rem;
+
+}
+.needHelp{
+  h3 {
+    margin: 0 auto;
+  }
+  p {
+    width: 350px;
+   text-align: center;
+   margin: 2rem auto;
+}
+
+}
+.needHelp .discuss {
+  background-color: gold;
+  color: black;
+  display: block;
+  margin:  0 auto;
+}
+@media(width>900px){
+      .needHelp{
+       width: 600px;
+    }
+}
+/* more than pc */
+@media(width>1350px){
+    .needHelp{
+       width: 1050px;
+    }
+}

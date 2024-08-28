@@ -1,0 +1,69 @@
+
+.contentSection{
+padding: 2rem;
+}
+.content {
+  display: block;
+  max-width: 100%;
+  width: 400px;
+  h2{
+    margin: 1.5rem 0rem;
+  }
+  ul li{
+    list-style:disc;
+
+  }
+   ul li::marker {
+  color: rgb(0, 255, 119);
+}
+
+}
+
+.tittel{
+  margin: 3rem auto;
+  width: max-content;
+  p{
+    text-align: center;
+  }
+}
+.img {
+
+  width: 400px;
+
+  height: 30vh;
+  background-image: url("../imgs/dots.png");
+  background-size: cover;
+  img{
+    width: 75%;
+  }
+}
+@media (width>900px) {
+  .contentSection {
+    display: grid;
+    grid-auto-columns: 400px;
+    place-content: center;
+    grid-template-areas:
+      "m1 c1"
+      "c2 m2"
+      "m3 c3";
+      gap: 6rem;
+  }
+  .img1 {
+    grid-area: m1;
+  }
+  .img2 {
+    grid-area: m2;
+  }
+  .img3 {
+    grid-area: m3;
+  }
+  .content1 {
+    grid-area: c1;
+  }
+  .content2 {
+    grid-area: c2;
+  }
+  .content3 {
+    grid-area: c3;
+  }
+}
